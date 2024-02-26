@@ -1,0 +1,81 @@
+a
+{
+  margin: 15px;
+  color: white;
+}
+
+body
+{
+  background-color: black;
+}
+
+#box::-webkit-scrollbar
+{
+  display: none;
+}
+
+/* img:hover
+{
+  transform: scale(1.2);
+  transition-property: transform;
+  transition-duration: 2s;
+} */
+
+.active:hover
+{
+  color: orange;
+  transition-property: color;
+  transition-duration: 2s;
+}
+
+/* button
+{
+  font-size: 20px;
+  margin-bottom: 10px;
+} */
+
+#one:nth-of-type(1)
+{
+  background-color: white;
+  color: black;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+#one:nth-of-type(1):hover
+{
+  background-color: black;
+  color: white;
+  transition-property: background-color, color;
+  transition-duration: 2s;
+}
+
+
+#one:nth-of-type(2)
+{
+  background-color: gray;
+  color: white;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+
+#one:nth-of-type(2):hover
+{
+  background-color: white;
+  color: black;
+  transition-property: background-color, color;
+  transition-duration: 2s;
+}
